@@ -7,10 +7,8 @@
 'use client';
 
 import { useMemo, useState } from 'react';
-// REPLACE the next line:
-// import rankingsData from '@/data/rankings.sample.json';
-/* eslint-disable @typescript-eslint/no-var-requires */
-const rankingsData = require('@/data/rankings.sample.json');
+import rankingsData from '@/data/rankings.sample.json';
+
 
 
 // ---------- Types ----------
