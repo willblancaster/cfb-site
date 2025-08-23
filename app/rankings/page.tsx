@@ -7,9 +7,11 @@
 'use client';
 
 import { useMemo, useState } from 'react';
-// If your tsconfig has "resolveJsonModule": true, this import works. Otherwise swap to
-// const rankings = require('@/data/rankings.sample.json');
-import rankingsData from '@/data/rankings.sample.json';
+// REPLACE the next line:
+// import rankingsData from '@/data/rankings.sample.json';
+/* eslint-disable @typescript-eslint/no-var-requires */
+const rankingsData = require('@/data/rankings.sample.json');
+
 
 // ---------- Types ----------
 
@@ -199,7 +201,7 @@ function PollBrowser({ poll }: { poll: PollKey }) {
                   onClick={() => setWeek(w)}
                   className={classNames(
                     'px-2 py-1 rounded text-sm border',
-                    w === week && week !== 'latest' && 'bg-black text-white border-black'
+                    week !== 'latest' && w === week && 'bg-black text-white border-black'
                   )}
                 >W{w}</button>
               ))}
