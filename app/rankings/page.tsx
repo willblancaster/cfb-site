@@ -3,7 +3,7 @@ import { headers } from 'next/headers';
 type Row = { rank: number; team: string; record: string; conf: string };
 
 async function getRankings(): Promise<Row[]> {
-  const h = headers();
+  const h = await headers(); // ← added await
   const host = h.get('host')!;
   const protocol = process.env.NODE_ENV === 'development' ? 'http' : 'https';
   const url = `${protocol}://${host}/api/rankings`;
@@ -11,6 +11,7 @@ async function getRankings(): Promise<Row[]> {
   const res = await fetch(url, { cache: 'no-store' });
   return res.json();
 }
+
 
 export default async function RankingsPage() {
   const rows = await getRankings();
