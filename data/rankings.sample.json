@@ -1,0 +1,12 @@
+[
+  { "rank": 1, "team": "Georgia", "record": "0-0", "conf": "SEC" },
+  { "rank": 2, "team": "Ohio State", "record": "0-0", "conf": "Big Ten" },
+  { "rank": 3, "team": "Texas", "record": "0-0", "conf": "SEC" },
+  { "rank": 4, "team": "Oregon", "record": "0-0", "conf": "Big Ten" },
+  { "rank": 5, "team": "Alabama", "record": "0-0", "conf": "SEC" },
+  { "rank": 6, "team": "Michigan", "record": "0-0", "conf": "Big Ten" },
+  { "rank": 7, "team": "Notre Dame", "record": "0-0", "conf": "IND" },
+  { "rank": 8, "team": "LSU", "record": "0-0", "conf": "SEC" },
+  { "rank": 9, "team": "Penn State", "record": "0-0", "conf": "Big Ten" },
+  { "rank": 10, "team": "Ole Miss", "record": "0-0", "conf": "SEC" }
+]
