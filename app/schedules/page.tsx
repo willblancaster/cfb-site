@@ -12,13 +12,14 @@ type Game = {
 };
 
 async function getGames(): Promise<Game[]> {
-  const h = headers();
+  const h = await headers(); // ← add await
   const host = h.get('host')!;
   const protocol = process.env.NODE_ENV === 'development' ? 'http' : 'https';
   const url = `${protocol}://${host}/api/games`;
   const res = await fetch(url, { cache: 'no-store' });
   return res.json();
 }
+
 
 export default async function SchedulesPage() {
   const games = await getGames();
