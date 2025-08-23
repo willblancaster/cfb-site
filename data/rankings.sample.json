@@ -1,12 +1,78 @@
-[
-  { "rank": 1, "team": "Georgia", "record": "0-0", "conf": "SEC" },
-  { "rank": 2, "team": "Ohio State", "record": "0-0", "conf": "Big Ten" },
-  { "rank": 3, "team": "Texas", "record": "0-0", "conf": "SEC" },
-  { "rank": 4, "team": "Oregon", "record": "0-0", "conf": "Big Ten" },
-  { "rank": 5, "team": "Alabama", "record": "0-0", "conf": "SEC" },
-  { "rank": 6, "team": "Michigan", "record": "0-0", "conf": "Big Ten" },
-  { "rank": 7, "team": "Notre Dame", "record": "0-0", "conf": "IND" },
-  { "rank": 8, "team": "LSU", "record": "0-0", "conf": "SEC" },
-  { "rank": 9, "team": "Penn State", "record": "0-0", "conf": "Big Ten" },
-  { "rank": 10, "team": "Ole Miss", "record": "0-0", "conf": "SEC" }
-]
+{
+  "ap": {
+    "2024": {
+      "latestWeek": 2,
+      "weeks": [
+        {
+          "week": 1,
+          "poll": "ap",
+          "season": 2024,
+          "released": "2024-08-25",
+          "ranks": [
+            { "rank": 1, "school": "Georgia", "conference": "SEC", "record": "0-0" },
+            { "rank": 2, "school": "Ohio State", "conference": "Big Ten", "record": "0-0" },
+            { "rank": 3, "school": "Texas", "conference": "SEC", "record": "0-0" }
+          ]
+        },
+        {
+          "week": 2,
+          "poll": "ap",
+          "season": 2024,
+          "released": "2024-09-01",
+          "ranks": [
+            { "rank": 1, "school": "Georgia", "conference": "SEC", "record": "1-0" },
+            { "rank": 2, "school": "Ohio State", "conference": "Big Ten", "record": "1-0" },
+            { "rank": 3, "school": "Texas", "conference": "SEC", "record": "1-0" }
+          ]
+        }
+      ]
+    }
+  },
+  "coaches": {
+    "2024": {
+      "latestWeek": 2,
+      "weeks": [
+        {
+          "week": 1,
+          "poll": "coaches",
+          "season": 2024,
+          "released": "2024-08-25",
+          "ranks": [
+            { "rank": 1, "school": "Georgia", "conference": "SEC", "record": "0-0" },
+            { "rank": 2, "school": "Ohio State", "conference": "Big Ten", "record": "0-0" },
+            { "rank": 3, "school": "Michigan", "conference": "Big Ten", "record": "0-0" }
+          ]
+        },
+        {
+          "week": 2,
+          "poll": "coaches",
+          "season": 2024,
+          "released": "2024-09-01",
+          "ranks": [
+            { "rank": 1, "school": "Georgia", "conference": "SEC", "record": "1-0" },
+            { "rank": 2, "school": "Ohio State", "conference": "Big Ten", "record": "1-0" },
+            { "rank": 3, "school": "Michigan", "conference": "Big Ten", "record": "1-0" }
+          ]
+        }
+      ]
+    }
+  },
+  "cfp": {
+    "2024": {
+      "latestWeek": 1,
+      "weeks": [
+        {
+          "week": 1,
+          "poll": "cfp",
+          "season": 2024,
+          "released": "2024-10-29",
+          "ranks": [
+            { "rank": 1, "school": "Georgia", "conference": "SEC", "record": "8-0" },
+            { "rank": 2, "school": "Ohio State", "conference": "Big Ten", "record": "8-0" },
+            { "rank": 3, "school": "Florida State", "conference": "ACC", "record": "8-0" }
+          ]
+        }
+      ]
+    }
+  }
+}
