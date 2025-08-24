@@ -282,5 +282,3 @@ export default function RankingsPage() {
     </div>
   );
 }
-/ /   t o u c h   t o   t r i g g e r   d e p l o y  
- 
